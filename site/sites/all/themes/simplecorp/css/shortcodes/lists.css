@@ -1,0 +1,305 @@
+
+.ticklist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.ticklist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/ticklist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.crosslist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.crosslist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/crosslist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.starlist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.starlist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/starlist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.exclamlist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.exclamlist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/exclamlist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.addlist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.addlist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/addlist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.blacklist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.blacklist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/blacklist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.bluelist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.bluelist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/bluelist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.starlistsmall ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.starlistsmall ul li
+{
+	background:transparent url(../../images/shortcodes/lists/starlistsmall.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.deletelist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.deletelist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/deletelist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.errorlist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.errorlist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/errorlist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.feedlist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.feedlist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/feedlist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.greenlist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.greenlist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/greenlist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.idealist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.idealist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/idealist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.keylist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.keylist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/keylist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.newlist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.newlist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/newlist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.orangelist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.orangelist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/orangelist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.pinklist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.pinklist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/pinklist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.pluslist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.pluslist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/pluslist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.purplelist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.purplelist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/purplelist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.redlist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.redlist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/redlist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.taglist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.taglist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/taglist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.vcardlist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.vcardlist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/vcardlist.png) no-repeat center left!important;
+	padding:2px 2px 2px 20px;
+}
+
+.yellowlist ul
+{
+	list-style:none!important;
+	margin-bottom:20px;
+	margin-left:0;
+}
+
+.yellowlist ul li
+{
+	background:transparent url(../../images/shortcodes/lists/yellowlist.png) no-repeat center left!important;
+	list-style-type:none;
+	padding:2px 2px 2px 20px;
+}
+
+.yellowlist li,.vcardlist li,.taglist li,.redlist li,.purplelist li,.pinklist li,.pluslist li,.orangelist li,.newlist li,.keylist li,.idealist li,.greenlist li,.feedlist li,.errorlist li,.deletelist li,.starlistsmall li,.bluelist li,.blacklist li,.addlist li,.exclamlist li,.starlist li,.crosslist li,.ticklist li
+{
+	list-style:none!important;
+}

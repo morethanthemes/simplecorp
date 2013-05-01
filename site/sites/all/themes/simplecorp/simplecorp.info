@@ -1,0 +1,68 @@
+name = SimpleCorp
+description = A flexible responsive theme with many regions supported by <a href="http://www.morethanthemes.com/" target="_blank">More than (just) Themes</a>. If you like this theme, we encourage you to try also our other <a href="http://www.morethanthemes.com" target="_blank">Premium</a> and <a href="http://drupalizing.com" target="_blank">Free</a> Drupal themes.
+
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/main-css.css
+stylesheets[all and (min-width: 768px) and (max-width: 959px)][] = css/768.css
+stylesheets[all and (min-width: 480px) and (max-width: 767px)][] = css/480.css
+stylesheets[all and (max-width: 479px)][] = css/320.css
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/plugins/flexslider.css
+stylesheets[all][] = css/local.css
+
+
+regions[header] = Header
+regions[navigation] = Navigation
+regions[top_content] = Top Content
+regions[banner] = Banner
+regions[highlighted] = Highlighted
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[bottom_content] = Bottom Content
+regions[footer_first] = Footer First
+regions[footer_second] = Footer Second
+regions[footer_third] = Footer Third
+regions[footer_fourth] = Footer Fourth
+regions[footer] = Footer
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+
+settings[breadcrumb_display]= 1
+settings[breadcrumb_separator]= '/'
+settings[main_menu_custom_js]= 1
+settings[header_tooltip_js]= 1
+settings[social_icons_display]= 1
+settings[highlighted_display]= 1
+settings[carousel_display]= 1
+settings[carousel_js]= 1
+settings[carousel_effect_time]='0.6'
+settings[carousel_effect]='easeOutCirc'
+settings[slideshow_display]= 1
+settings[slideshow_js]= 1
+settings[slideshow_effect]='slide'
+settings[slideshow_effect_time]='5'
+settings[slideshow_random]= 0
+settings[slideshow_controls]= 1
+settings[slideshow_pause]= 1
+settings[slideshow_touch]= 1
+settings[responsive_meta]= 1
+settings[responsive_respond]= 0
+settings[button_color]= 'steel_blue'
+settings[theme_color]= 'default'
+settings[columns_enable]= 0
+settings[lists_enable]= 0
+settings[boxes_enable]= 0
+settings[quicksand_js]= 0
+settings[prettyphoto_js]= 1
+settings[prettyphoto_theme]= 'pp_default'
+settings[prettyphoto_social_tools]= 1
+settings[jtweetanywhere_js]= 0
+settings[jtweetanywhere_id]= 'morethanthemes'
+settings[responsive_menu_state]= 1
+settings[responsive_menu_switchwidth]='960'
+settings[responsive_menu_topoptiontext]= 'Select a page'
