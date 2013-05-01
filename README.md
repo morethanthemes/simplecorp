@@ -1,9 +1,9 @@
-simplecorp
+SimpleCorp
 ==========
 
-This repository contains the Drupal installation that runs at [drupalizing.com](http://drupalizing.com) and demonstrates the [“Simple Corp”](http://drupal.org/project/simplecorp) Drupal theme. We use this repository in order to maintain the above mentioned site and develop the corresponding theme. 
+This repository contains the Drupal installation that runs at [drupalizing.com](http://drupalizing.com) and demonstrates the [“SimpleCorp”](http://drupal.org/project/simplecorp) Drupal theme. We use this repository in order to maintain the above mentioned site and develop the corresponding theme. 
 
-You are welcome however to grab this code and have the demonstration site running on your end. By doing this you have the chance to see the ["Simple Corp" theme in action](http://demo.drupalizing.com/?theme=simplecorp) exactly the way it looks like on our demo.
+You are welcome however to grab this code and have the demonstration site running on your end. By doing this you have the chance to see the ["SimpleCorp" theme in action](http://demo.drupalizing.com/?theme=simplecorp) exactly the way it looks like on our demo.
 
 Installation instructions
 --------------
