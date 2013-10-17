@@ -36,6 +36,8 @@ box-shadow: none!important; border: none!important; }
 /*--------------------------------------*/
 /*BODY CSS (footer, container, navigation, copyrights ...)*/
 /*--------------------------------------*/
+body.custom-background { background-attachment: scroll;}
+
 #page { float: none; height: auto; width: 320px; background: #FFF; -webkit-box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.20); -moz-box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.20);
 box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.20); padding: 0 0px; text-align: left; margin:0 auto; }
 

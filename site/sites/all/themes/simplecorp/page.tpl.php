@@ -165,15 +165,22 @@
                 <?php endif; ?>
             
             </div>
-            <!-- EOF: #banner -->
 
-            <?php if (theme_get_setting('breadcrumb_display','simplecorp') || $messages): ?>
-            <!--breadrumb & messages -->
+            <!-- EOF: #banner -->
+            <?php if ($breadcrumb && theme_get_setting('breadcrumb_display','simplecorp')):?>
+            <!-- #breadcrumb -->
             <div class="container clearfix">
             <?php print $breadcrumb; ?>
+            </div>
+            <!-- EOF: #breadcrumb -->
+            <?php endif; ?>
+
+            <?php if ($messages):?>
+            <!--messages -->
+            <div class="container clearfix">
             <?php print $messages; ?>
             </div>
-            <!--EOF: breadrumb & messages -->
+            <!--EOF: messages -->        
             <?php endif; ?>
 
             <!--#featured -->

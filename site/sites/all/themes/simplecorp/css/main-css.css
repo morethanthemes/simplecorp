@@ -35,7 +35,7 @@ iframe {border: none;}
 /* 02-   TYPOGRAPHY 
 /* ---------------------------------------------------------------------- */
 body { background: #FFF; color: #898989; font-size: 12px; font-family: 'Arial', 'Verdana', sans-serif; -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ 
--webkit-text-size-adjust: 100%; overflow-x: hidden;}
+-webkit-text-size-adjust: 100%; }
 
 body.custom-background {background-image: url("../images/sampleimages/main-bg1.jpg"); background-repeat: no-repeat; background-position: top center; background-attachment: fixed;}
 

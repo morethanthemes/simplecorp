@@ -123,7 +123,6 @@ if (theme_get_setting('carousel_js','simplecorp')):
 
 endif;
 
-
 /**
  * Add custom javascript for main menu
  */

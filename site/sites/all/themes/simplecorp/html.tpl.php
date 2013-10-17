@@ -11,6 +11,8 @@
         <![endif]-->
         <?php endif; ?>
 
+        <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
         <?php print $scripts; ?>
     </head>
     <body class="<?php print $classes; ?> custom-background" <?php print $attributes;?>>

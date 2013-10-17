@@ -34,6 +34,8 @@ position: relative; text-align: center; text-transform:uppercase; }
 /*--------------------------------------*/
 /*BODY LAYOUT*/
 /*--------------------------------------*/
+body.custom-background { background-attachment: scroll;}
+
 #page { height:auto;  width:748px; background:#FFF; -webkit-box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.20); -moz-box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.20);  
 box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.20); padding:0px; margin:20px auto 0; float:none; }
 
