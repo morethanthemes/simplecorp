@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Φιλοξενητής: 127.0.0.1
--- Χρόνος δημιουργίας: 17 Οκτ 2013 στις 22:23:33
+-- Χρόνος δημιουργίας: 18 Οκτ 2013 στις 10:29:28
 -- Έκδοση διακομιστή: 5.5.27
 -- Έκδοση PHP: 5.4.7
 
@@ -2229,7 +2229,7 @@ CREATE TABLE IF NOT EXISTS `queue` (
   PRIMARY KEY (`item_id`),
   KEY `name_created` (`name`,`created`),
   KEY `expire` (`expire`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Stores items in queues.' AUTO_INCREMENT=28 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Stores items in queues.' AUTO_INCREMENT=4 ;
 
 -- --------------------------------------------------------
 
@@ -2804,11 +2804,15 @@ INSERT INTO `role_permission` (`rid`, `permission`, `module`) VALUES
 (1, 'access comments', 'comment'),
 (1, 'access content', 'node'),
 (1, 'access site-wide contact form', 'contact'),
+(1, 'search content', 'search'),
+(1, 'use advanced search', 'search'),
 (1, 'use text format filtered_html', 'filter'),
 (2, 'access comments', 'comment'),
 (2, 'access content', 'node'),
 (2, 'access site-wide contact form', 'contact'),
 (2, 'post comments', 'comment'),
+(2, 'search content', 'search'),
+(2, 'use advanced search', 'search'),
 (2, 'use text format filtered_html', 'filter'),
 (3, 'access administration pages', 'system'),
 (3, 'access comments', 'comment'),
@@ -5225,7 +5229,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`uid`, `name`, `pass`, `mail`, `theme`, `signature`, `signature_format`, `created`, `access`, `login`, `status`, `timezone`, `language`, `picture`, `init`, `data`) VALUES
 (0, '', '', '', '', '', NULL, 0, 0, 0, 0, NULL, '', 0, '', NULL),
-(1, 'admin', '$S$DSrpd.tIfn9GOadLASuPFkRs5BMpdeyMJPBTvvm9TOmKnpBGw7ng', 'support@yoursite.com', '', 'Sed lobortis feugiat turpis id molestie. Integer in adipiscing ipsum. Sed sit amet orci vitae turpis fringilla placerat. Suspendisse dignissim tincidunt enim quis ornare. Suspendisse potenti.', 'filtered_html', 1362080978, 1382041153, 1382041153, 1, 'Europe/Athens', '', 0, 'support@yoursite.com', 0x613a323a7b733a373a22636f6e74616374223b693a303b733a373a226f7665726c6179223b693a313b7d);
+(1, 'admin', '$S$DSrpd.tIfn9GOadLASuPFkRs5BMpdeyMJPBTvvm9TOmKnpBGw7ng', 'support@yoursite.com', '', 'Sed lobortis feugiat turpis id molestie. Integer in adipiscing ipsum. Sed sit amet orci vitae turpis fringilla placerat. Suspendisse dignissim tincidunt enim quis ornare. Suspendisse potenti.', 'filtered_html', 1362080978, 1382084834, 1382084622, 1, 'Europe/Athens', '', 0, 'support@yoursite.com', 0x613a323a7b733a373a22636f6e74616374223b693a303b733a373a226f7665726c6179223b693a313b7d);
 
 -- --------------------------------------------------------
 
@@ -5280,7 +5284,7 @@ INSERT INTO `variable` (`name`, `value`) VALUES
 ('comment_subject_field_blog', 0x693a313b),
 ('contact_default_status', 0x693a313b),
 ('cron_key', 0x733a34333a2242784d6a6b6352335a5344484e314d42795a704b35322d494142336d4170354a72673543646d7250575a55223b),
-('cron_last', 0x693a313338323034303633323b),
+('cron_last', 0x693a313338323038343536363b),
 ('css_js_query_string', 0x733a363a226d757478736f223b),
 ('date_default_timezone', 0x733a31333a224575726f70652f417468656e73223b),
 ('default_nodes_main', 0x733a313a2233223b),
@@ -5426,7 +5430,7 @@ INSERT INTO `variable` (`name`, `value`) VALUES
 ('superfish_zebra_2', 0x693a313b),
 ('theme_default', 0x733a31303a2273696d706c65636f7270223b),
 ('theme_simplecorp_settings', 0x613a35303a7b733a31313a22746f67676c655f6c6f676f223b693a313b733a31313a22746f67676c655f6e616d65223b693a313b733a31333a22746f67676c655f736c6f67616e223b693a313b733a32343a22746f67676c655f6e6f64655f757365725f70696374757265223b693a313b733a32373a22746f67676c655f636f6d6d656e745f757365725f70696374757265223b693a313b733a33323a22746f67676c655f636f6d6d656e745f757365725f766572696669636174696f6e223b693a313b733a31343a22746f67676c655f66617669636f6e223b693a313b733a31363a22746f67676c655f6d61696e5f6d656e75223b693a313b733a32313a22746f67676c655f7365636f6e646172795f6d656e75223b693a313b733a31323a2264656661756c745f6c6f676f223b693a313b733a393a226c6f676f5f70617468223b733a303a22223b733a31313a226c6f676f5f75706c6f6164223b733a303a22223b733a31353a2264656661756c745f66617669636f6e223b693a313b733a31323a2266617669636f6e5f70617468223b733a303a22223b733a31343a2266617669636f6e5f75706c6f6164223b733a303a22223b733a31313a227468656d655f636f6c6f72223b733a373a2264656661756c74223b733a31323a22627574746f6e5f636f6c6f72223b733a31303a22737465656c5f626c7565223b733a32303a22736f6369616c5f69636f6e735f646973706c6179223b693a303b733a31373a226865616465725f746f6f6c7469705f6a73223b693a313b733a31393a226d61696e5f6d656e755f637573746f6d5f6a73223b693a313b733a31373a22736c69646573686f775f646973706c6179223b693a303b733a31323a22736c69646573686f775f6a73223b693a313b733a31363a22736c69646573686f775f656666656374223b733a353a22736c696465223b733a32313a22736c69646573686f775f6566666563745f74696d65223b733a313a2235223b733a31363a22736c69646573686f775f72616e646f6d223b693a303b733a31353a22736c69646573686f775f7061757365223b693a313b733a31383a22736c69646573686f775f636f6e74726f6c73223b693a313b733a31353a22736c69646573686f775f746f756368223b693a313b733a31393a22686967686c6967687465645f646973706c6179223b693a303b733a31363a226361726f7573656c5f646973706c6179223b693a303b733a31313a226361726f7573656c5f6a73223b693a313b733a32303a226361726f7573656c5f6566666563745f74696d65223b733a333a22302e36223b733a31353a226361726f7573656c5f656666656374223b733a31313a22656173654f757443697263223b733a31323a22717569636b73616e645f6a73223b693a313b733a31343a2270726574747970686f746f5f6a73223b693a313b733a31373a2270726574747970686f746f5f7468656d65223b733a31303a2270705f64656661756c74223b733a32343a2270726574747970686f746f5f736f6369616c5f746f6f6c73223b693a313b733a31373a226a7477656574616e7977686572655f6a73223b693a313b733a31373a226a7477656574616e7977686572655f6964223b733a31343a226d6f72657468616e7468656d6573223b733a31343a22636f6c756d6e735f656e61626c65223b693a313b733a31323a22626f7865735f656e61626c65223b693a313b733a31323a226c697374735f656e61626c65223b693a313b733a31383a2262726561646372756d625f646973706c6179223b693a313b733a32303a2262726561646372756d625f736570617261746f72223b733a313a222f223b733a32313a22726573706f6e736976655f6d656e755f7374617465223b693a303b733a32373a22726573706f6e736976655f6d656e755f7377697463687769647468223b733a333a22393630223b733a32393a22726573706f6e736976655f6d656e755f746f706f7074696f6e74657874223b733a31333a2253656c65637420612070616765223b733a31353a22726573706f6e736976655f6d657461223b693a313b733a31383a22726573706f6e736976655f726573706f6e64223b693a303b733a31363a22746162735f5f6163746976655f746162223b733a31343a22656469742d6c6f6f6b6e6665656c223b7d),
-('update_last_check', 0x693a313338323034303634303b),
+('update_last_check', 0x693a313338323038343538353b),
 ('update_last_email_notification', 0x693a313338323033373434333b),
 ('update_notify_emails', 0x613a313a7b693a303b733a32303a22737570706f727440796f7572736974652e636f6d223b7d),
 ('user_admin_role', 0x733a313a2233223b),
@@ -5483,7 +5487,7 @@ CREATE TABLE IF NOT EXISTS `watchdog` (
   KEY `type` (`type`),
   KEY `uid` (`uid`),
   KEY `severity` (`severity`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Table that contains logs of all system events.' AUTO_INCREMENT=41 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Table that contains logs of all system events.' AUTO_INCREMENT=44 ;
 
 --
 -- Άδειασμα δεδομένων του πίνακα `watchdog`
@@ -5529,7 +5533,10 @@ INSERT INTO `watchdog` (`wid`, `uid`, `type`, `message`, `variables`, `severity`
 (37, 0, 'cron', 'Cron run completed.', 0x613a303a7b7d, 5, '', 'http://localhost/mtt_themes/git/simplecorp/site/admin/reports/status/run-cron?destination=admin%2Freports%2Fstatus&render=overlay', 'http://localhost/mtt_themes/git/simplecorp/site/user/1', '::1', 1382040642),
 (38, 1, 'user', 'Session closed for %name.', 0x613a313a7b733a353a22256e616d65223b733a353a2261646d696e223b7d, 5, '', 'http://localhost/mtt_themes/git/simplecorp/site/user/logout', 'http://localhost/mtt_themes/git/simplecorp/site/user/1', '::1', 1382040683),
 (39, 1, 'user', 'Session opened for %name.', 0x613a313a7b733a353a22256e616d65223b733a353a2261646d696e223b7d, 5, '', 'http://localhost/mtt_themes/git/simplecorp/site/user', 'http://localhost/mtt_themes/git/simplecorp/site/user', '::1', 1382041155),
-(40, 1, 'user', 'Session closed for %name.', 0x613a313a7b733a353a22256e616d65223b733a353a2261646d696e223b7d, 5, '', 'http://localhost/mtt_themes/git/simplecorp/site/user/logout', 'http://localhost/mtt_themes/git/simplecorp/site/user/1', '::1', 1382041198);
+(40, 1, 'user', 'Session closed for %name.', 0x613a313a7b733a353a22256e616d65223b733a353a2261646d696e223b7d, 5, '', 'http://localhost/mtt_themes/git/simplecorp/site/user/logout', 'http://localhost/mtt_themes/git/simplecorp/site/user/1', '::1', 1382041198),
+(41, 0, 'cron', 'Cron run completed.', 0x613a303a7b7d, 5, '', 'http://localhost/mtt_themes/git/simplecorp/site/', 'http://localhost/mtt_themes/git/simplecorp/', '::1', 1382084586),
+(42, 1, 'user', 'Session opened for %name.', 0x613a313a7b733a353a22256e616d65223b733a353a2261646d696e223b7d, 5, '', 'http://localhost/mtt_themes/git/simplecorp/site/blog?destination=blog', 'http://localhost/mtt_themes/git/simplecorp/site/blog', '::1', 1382084624),
+(43, 1, 'user', 'Session closed for %name.', 0x613a313a7b733a353a22256e616d65223b733a353a2261646d696e223b7d, 5, '', 'http://localhost/mtt_themes/git/simplecorp/site/user/logout', 'http://localhost/mtt_themes/git/simplecorp/site/blog', '::1', 1382084842);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
