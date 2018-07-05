@@ -11,10 +11,12 @@ configure = admin/config/development/testing/settings
 files[] = tests/actions.test
 files[] = tests/ajax.test
 files[] = tests/batch.test
+files[] = tests/boot.test
 files[] = tests/bootstrap.test
 files[] = tests/cache.test
 files[] = tests/common.test
 files[] = tests/database_test.test
+files[] = tests/entity_crud.test
 files[] = tests/entity_crud_hook_test.test
 files[] = tests/entity_query.test
 files[] = tests/error.test
@@ -55,8 +57,7 @@ files[] = tests/upgrade/update.trigger.test
 files[] = tests/upgrade/update.field.test
 files[] = tests/upgrade/update.user.test
 
-; Information added by drupal.org packaging script on 2013-08-08
-version = "7.23"
+; Information added by Drupal.org packaging script on 2018-04-25
+version = "7.59"
 project = "drupal"
-datestamp = "1375928238"
-
+datestamp = "1524673284"
